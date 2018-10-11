@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/report_menu_addplace"
+        android:icon="@drawable/ic_add_circle_black_24dp"
+        android:title="new place"
+        app:actionProviderClass="android.support.v7.app.MediaRouteActionProvider"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/report_menu_load"
+        android:title="Load Places"
+        app:actionProviderClass="android.support.v7.app.MediaRouteActionProvider"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/report_menu_finish"
+        android:title="End Report"
+        app:actionProviderClass="android.support.v7.app.MediaRouteActionProvider"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/report_menu_eliminate"
+        android:title="Elimate Report"
+        app:actionProviderClass="android.support.v7.app.MediaRouteActionProvider"
+        app:showAsAction="never"/>
+
+</menu>

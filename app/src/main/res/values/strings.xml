@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ManservApp</string>
+    <string name="title_activity_start_report">StartReport</string>
+    <string name="title_activity_report">reportActivity</string>
+    <string name="title_activity_place">PlaceActivity</string>
+
+
+    <string-array name="spinnerItems">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="card_title">card_title</string>
+    <string name="card_content">card_content</string>
+    <string name="action_share">chare</string>
+    <string name="action_explore">explore</string>
+</resources>
